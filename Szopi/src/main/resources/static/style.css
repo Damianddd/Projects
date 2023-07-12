@@ -1,0 +1,90 @@
+body {
+    margin:0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+h2 {
+    color: blue;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.main-content {
+    background-color: rgb(224, 224, 224);
+    background-size: auto;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.item {
+    background-color: rgb(224, 224, 224);
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.item-name {
+    background-color:  black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-size: larger;
+    font-weight: bold;
+    width: calc(100% - 6px);
+    margin-top: 0 ; 
+}
+
+img {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    width: 150px;
+    height: auto;
+}
+
+.add-btn {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-btn:hover {
+    background-color: blue;
+}
+
+.cart-ico {
+    text-decoration: none;
+    color:white;
+}
+
+.cart-ico:hover{
+    color:blue
+}
+
+.cart-ico img {
+    height: 20px;
+    width: auto;
+}
+
